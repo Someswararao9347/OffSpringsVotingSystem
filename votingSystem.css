@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-con {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-con {
+  height: 300px;
+  margin-top: 50px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.bars-con {
+  display: flex;
+  justify-content: space-evenly;
+  transform: rotate(180deg);
+  height: 300px;
+  overflow: hidden;
+}
+
+.bar-num {
+  transform: rotate(180deg) !important;
+  margin-right: 5px;
+}
+
+.bar {
+  width: 40px;
+  height: 1%;
+}
+
+.bar-up {
+  background: green;
+}
+
+.bar-down {
+  background: red;
+}
+
+.bar-none {
+  background: yellow;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
